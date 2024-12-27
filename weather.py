@@ -1,5 +1,7 @@
 import requests
 
+# APIs that were used: https://open-meteo.com/ and https://nominatim.org/release-docs/develop/api/Search/
+
 location = input("Input your location: ")
 
 locationurl = "https://nominatim.openstreetmap.org/search"
