@@ -11,7 +11,7 @@ params1 = {
     "format" : "json"
 }
 headers = {
-    "User-Agent": "Tester"  # Replace with your app name and contact email
+    "User-Agent": "Tester"  # Necessary for the API can be anything
 }
 
 address_response = requests.get(locationurl, headers=headers, params=params1)
